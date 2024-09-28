@@ -18,7 +18,8 @@ O projeto está dividido em várias seções, incluindo:
 
 - ├── audios                         
 - - ├── Harrys_Wondrous_World.mp3             
-- - └── Hedwigs_Theme.mp3           
+- - └── Hedwigs_Theme.mp3
+- ├── README.md           
 - ├── estilo.css 
 - ├── fandom.html 
 - ├── estilo.css 
