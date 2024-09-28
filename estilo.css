@@ -1,0 +1,273 @@
+.post-title {
+    font-size: 46px;
+    color: #000;
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    line-height: 58px;
+    margin: 0;
+    position: relative;
+    text-align: left;
+    max-width: 1000px;
+    transform: scale(1);
+    width: 100%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+p {
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav li {
+    margin: 0 1rem;
+}
+
+header nav a {
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    flex: 1;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 5px;
+    width: 500px;
+}
+figure {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+figure img {
+    max-width: 100%;
+    height: auto; 
+}
+
+figcaption {
+    font-style: italic; 
+    color: #555; 
+    margin-top: 8px;
+}
+
+footer .footer-copy {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1cap 0;
+    width: 100%;
+    margin-top: 2rem;
+    border-top: 1px solid #444;
+}
+
+
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav li {
+        margin: 0.5rem 0;
+    }
+
+    main {
+        max-width: 95%;
+    }
+}
+
+#intro img {
+    border-radius: 0;
+}
+
+#soundtrack ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    list-style-type: decimal;
+}
+
+#soundtrack li {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+#making-of img {
+    margin-top: 2rem;
+}
+
+#fandom img {
+    margin-bottom: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #444;
+    text-align: left;
+}
+
+table th {
+    background-color: #555;
+}
+
+table tr:nth-child(even) {
+    background-color: #3a3a3a;
+}
+
+
+iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
+}
+
+
+@media (max-width: 768px) {
+    iframe {
+        height: 300px;
+    }
+}
+
+
+#technical-sheet {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
+}
+
+#technical-sheet h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+#technical-sheet ul {
+    list-style: none;
+    padding: 0;
+}
+
+#technical-sheet li {
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+}
+
+#technical-sheet strong {
+    color: #333;
+}
+
+#technical-sheet a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#technical-sheet a:hover {
+    text-decoration: underline;
+}
+
+#technical-sheet p {
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+#technical-sheet table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+#technical-sheet th,
+#technical-sheet td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#technical-sheet th {
+    background-color: #eee;
+    font-weight: bold;
+}
+
+#technical-sheet td {
+    background-color: #fff;
+}
