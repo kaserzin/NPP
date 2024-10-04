@@ -35,19 +35,17 @@ Este repositório contém um site expositivo sobre o filme "Corações de Ferro"
 
 ## Uso do Git e GitHub no Projeto
 
-Durante o desenvolvimento, utilizamos Git e GitHub para colaborar de forma eficiente. Cada integrante do trio ficou responsável por diferentes páginas e recursos do site, garantindo a divisão justa das tarefas e uma boa gestão de versionamento. 
+Ao longo do desenvolvimento deste trabalho, o trio utilizou Git e GitHub para facilitar a colaboração e o controle de versões. As atividades foram divididas de maneira a assegurar uma contribuição equilibrada de todos os integrantes, garantindo a organização e o progresso contínuo do projeto.
 
 ### Responsabilidades:
-- **Nicolas Tavares**: Desenvolvimento das páginas `fandom.html` e `trilhasonora.html`, além da adição da pasta de trilhas sonoras e integração com o CSS.
-- **Pedro Rogério**: Implementação das páginas `makingof.html` e `criticas.html`, incluindo a estruturação de conteúdos e melhorias visuais.
-- **Pedro Lucas**: Criação das páginas principais como `filme.html` e `personagens.html`, além da revisão geral de commits e integração das páginas no site.
+- **Nicolas Tavares**: Responsável pela adição das páginas `filmes.html`, `criticas.html` e `fandom.html`, incluindo a estruturação do conteúdo e integração com o design geral.
+- **Pedro Lucas**: Responsável por implementar as páginas `makingof.html`, `trilhasonora.html` e `personagens.html`, cuidando dos aspectos relacionados às informações do filme e à trilha sonora.
+- **Pedro Rogério**: Responsável pelo commit inicial, criação da pasta com os arquivos de trilha sonora e atualização do arquivo de estilo `estilo.css` para garantir a consistência visual entre as páginas.
 
-A cada etapa, utilizamos pull requests para revisar o código e garantir que todas as alterações estivessem corretas antes de serem incorporadas ao repositório principal. Isso garantiu a consistência do projeto e facilitou a integração das contribuições de cada membro.
-
-## Autores
+O trio utilizou pull requests e revisões de código para garantir que todas as mudanças fossem validadas antes de serem mescladas ao branch principal. Esse processo colaborativo assegurou a qualidade e a integração fluida das contribuições de cada membro ao projeto final.
 
 Este projeto foi desenvolvido por:
 
-- **Nicolas**
+- **Nicolas Tavares**
 - **Pedro Lucas**
 - **Pedro Rogério**
